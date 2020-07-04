@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/santosfrancisco/gatsby-starter-cv.svg?branch=master)](https://travis-ci.org/santosfrancisco/gatsby-starter-cv)
-[![GitHub version](https://badge.fury.io/gh/santosfrancisco%2Fgatsby-starter-cv.svg)](https://badge.fury.io/gh/santosfrancisco%2Fgatsby-starter-cv)
+[![Build Status](https://travis-ci.org/santosSteve/gatsby-starter-cv.svg?branch=master)](https://travis-ci.org/santosSteve/gatsby-starter-cv)
+[![GitHub version](https://badge.fury.io/gh/santosSteve%2Fgatsby-starter-cv.svg)](https://badge.fury.io/gh/santosSteve%2Fgatsby-starter-cv)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 <p align="center">
@@ -46,7 +46,7 @@ Create your resume in a few minutes with this totally responsive starter using R
 
     ```sh
     # create a new Gatsby site using the default starter
-    npx gatsby new my-default-starter https://github.com/santosfrancisco/gatsby-starter-cv
+    npx gatsby new my-default-starter https://github.com/santosSteve/gatsby-starter-cv
     ```
 
 2.  **Start developing.**
@@ -94,12 +94,12 @@ Update the configuration file with your data. The configuration file is in ```da
 
 ```js
   module.exports = {
-    siteTitle: 'Hi! I\'m Francisco!',
+    siteTitle: 'Hi! I\'m Steve!',
     siteDescription: `Create your online curriculum in just a few minutes with this starter`,
     keyWords: ['gatsbyjs', 'react', 'curriculum'],
-    authorName: 'Francisco Santos',
-    twitterUsername: '_franciscodf',
-    githubUsername: 'santosfrancisco',
+    authorName: 'Steven Kumarsingh',
+    twitterUsername: '_Stevedf',
+    githubUsername: 'santosSteve',
     authorAvatar: '/images/avatar.jpeg',
     authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
       In 2012 I started working as a support technician and I approached the developers.
@@ -179,22 +179,22 @@ Update the configuration file with your data. The configuration file is in ```da
       {
         image: "/images/gatsby-starter-cv.png",
         description: "Gatsby starter CV template",
-        url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+        url: "https://www.gatsbyjs.org/starters/santosSteve/gatsby-starter-cv/"
       },
       {
         image: "/images/awesome-grid.png",
         description: "Responsive grid for ReactJS",
-        url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+        url: "https://github.com/santosSteve/react-awesome-styled-grid"
       },
       /* more portifolio items here */
     ],
     social: {
-      twitter: "https://twitter.com/_franciscodf",
-      linkedin: "https://www.linkedin.com/in/santos-francisco",
-      github: "https://github.com/santosfrancisco",
+      twitter: "https://twitter.com/_Stevedf",
+      linkedin: "https://www.linkedin.com/in/santos-Steve",
+      github: "https://github.com/santosSteve",
       email: "yoshi.df@gmail.com"
     },
-    siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+    siteUrl: 'https://santosSteve.github.io/gatsbystarter-cv',
     pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
     siteCover: '/images/cover.jpeg',
     googleAnalyticsId: 'UA-000000000-1',
@@ -220,4 +220,4 @@ Update the configuration file with your data. The configuration file is in ```da
 
 ## It was useful?
 
-<a href="https://www.buymeacoffee.com/santosfrancisco" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" width="180px" ></a>
+<a href="https://www.buymeacoffee.com/santosSteve" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" width="180px" ></a>

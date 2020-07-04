@@ -1,15 +1,14 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Hi! I\'m Steve!',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorName: 'Steven Kumarsingh',
+  twitterUsername: 'Nevets172',
+  githubUsername: 'stevenks17',
+  authorAvatar: '',
+  authorDescription: `Full-Stack Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
+     <br />
+    I currently work as a Full-Stack developer and mainly work with <strong>Javascript, React, PostgreSQL, Ruby on Rails.</strong>`,
   skills: [
     {
       name: 'HTML',
@@ -24,8 +23,8 @@ module.exports = {
       level: 50
     },
     {
-      name: 'NodeJs',
-      level: 40
+      name: 'Rails',
+      level: 80
     },
     {
       name: 'React',
@@ -40,27 +39,27 @@ module.exports = {
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Datum Corportation",
       begin: {
-        month: 'sep',
-        year: '2019'
-      },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
-    },  {
-      company: "Lendico",
-      begin: {
-        month: 'apr',
+        month: 'aug',
         year: '2018'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
+      duration: '1yr',
+      occupation: "Technical Support Engineer",
+      description: "I am part of the Support team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
+  
+    },  {
+      company: "Forward Thinking Systems",
+      begin: {
+        month: 'jul',
+        year: '2016'
+      },
+      duration: '2yrs.',
+      occupation: "Technical Support Specialist Tier 2",
+      description: "I integrate the Frontend team responsible for developing and maintaining the online support platform."
   
     }, {
-      company: "Anapro",
+      company: "",
       begin: {
         month: 'dec',
         year: '2016'
@@ -84,22 +83,22 @@ module.exports = {
     {
       image: "/images/gatsby-starter-cv.png",
       description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+      url: "https://www.gatsbyjs.org/starters/santosSteve/gatsby-starter-cv/"
     },
     {
       image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+      description: "Parser Dashboard",
+      url: "https://github.com/stevenks17/parser"
     },
     /* more portifolio items here */
   ],
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    twitter: "https://twitter.com/Nevets172",
+    linkedin: "https://www.linkedin.com/in/stevenks17",
+    github: "https://github.com/stevenks17",
+    email: "stevenks17@gmail.com"
   },
-  siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
+  siteUrl: 'https://santosSteve.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
