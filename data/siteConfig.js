@@ -81,14 +81,19 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosSteve/gatsby-starter-cv/"
+      image: "/images/WGN.png",
+      description: "Which Game Next?",
+      url: "https://github.com/stevenks17/wgn-app"
     },
     {
-      image: "/images/awesome-grid.png",
+      image: "/images/Parser Dashboard.png",
       description: "Parser Dashboard",
       url: "https://github.com/stevenks17/parser"
+    },
+    {
+      image: "/images/Parser Dashboard.png",
+      description: "Tea Time Revised",
+      url: "https://github.com/stevenks17/Tea-Time-Revised"
     },
     /* more portifolio items here */
   ],
