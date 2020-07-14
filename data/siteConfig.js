@@ -91,9 +91,9 @@ module.exports = {
       url: "https://github.com/stevenks17/parser"
     },
     {
-      image: "/images/Parser Dashboard.png",
-      description: "Tea Time Revised",
-      url: "https://github.com/stevenks17/Tea-Time-Revised"
+      image: "/images/Bingeworthy-Books.png",
+      description: "Bingeworthy-Books",
+      url: "http://bingeworthy-books.herokuapp.com/"
     },
     /* more portifolio items here */
   ],
