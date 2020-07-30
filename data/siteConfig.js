@@ -8,31 +8,39 @@ module.exports = {
   authorAvatar: '',
   authorDescription: `Full-Stack Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
      <br />
-    I currently work as a Full-Stack developer and mainly work with <strong>Javascript, React, PostgreSQL, Ruby on Rails.</strong>`,
+     As a Full-Stack developer I mainly work with <strong>React, PostgreSQL, Ruby on Rails.</strong>`,
   skills: [
     {
-      name: 'HTML',
+      name: 'Ruby',
       level: 70
-    },
-    {
-      name: 'CSS',
-      level: 60
     },
     {
       name: 'Javascript',
-      level: 50
+      level: 70
     },
     {
-      name: 'Rails',
-      level: 80
-    },
-    {
-      name: 'React',
+      name: 'Python',
       level: 60
     },
     {
-      name: 'Git',
+      name: 'Django',
+      level: 50
+    },
+    {
+      name: 'React',
       level: 70
+    },
+    {
+      name: 'Ruby on Rails',
+      level: 90
+    },
+    {
+      name: 'HTML',
+      level: 80
+    },
+    {
+      name: 'CSS',
+      level: 80
     },
     /* more skills here */
   ],
@@ -56,34 +64,16 @@ module.exports = {
       },
       duration: '2yrs.',
       occupation: "Technical Support Specialist Tier 2",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online support platform."
-  
-    }, {
-      company: "",
-      begin: {
-        month: 'dec',
-        year: '2016'
-      },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
-    }, {
-      company: "Anapro",
-      begin: {
-        month: 'set',
-        year: '2012'
-      },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
+      description: "I worked with the Support and Quality Assurance teams and was responsible for developing and maintaining the mobile application."
   
     },
+
   ],
   portifolio: [
     {
       image: "/images/WGN.png",
       description: "Which Game Next?",
-      url: "https://github.com/stevenks17/wgn-app"
+      url: "https://wgn-app.netlify.app/",
     },
     {
       image: "/images/Parser Dashboard.png",
@@ -99,11 +89,11 @@ module.exports = {
   ],
   social: {
     twitter: "https://twitter.com/Nevets172",
-    linkedin: "https://www.linkedin.com/in/stevenks17",
+    linkedin: "https://www.linkedin.com/in/steven-kumarsingh-97b610180/",
     github: "https://github.com/stevenks17",
     email: "stevenks17@gmail.com"
   },
-  siteUrl: 'https://santosSteve.github.io/gatsbystarter-cv',
+  siteUrl: 'https://steveks17.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: 'UA-000000000-1',
@@ -119,7 +109,7 @@ module.exports = {
       url: '/',
     },
     {
-      label: 'Portifolio',
+      label: 'Portfolio',
       url: '/portifolio',
     }
   ]
