@@ -23,6 +23,8 @@ const Image = styled.img`
 
 
 
+
+
 const JobCard = styled.a`
   text-decoration: none;
   color: inherit;
@@ -30,7 +32,7 @@ const JobCard = styled.a`
   ${({ href }) => href && css`
     &:hover ${Image}{
       transition: transform .5s;
-      transform: scale(3.0);
+      transform: scale(2.0);
     }
   `}
 `
@@ -65,6 +67,8 @@ const Portifolio = ({ className, location }) => {
                 >
                   <Image src={withPrefix(job.image)} />
                   <p>{job.description}</p>
+                  
+
                 </JobCard>
               </Col>
             ))}
