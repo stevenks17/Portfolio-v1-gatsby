@@ -71,17 +71,17 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "/images/WGN.png",
+      image: "./images/WGN.png",
       description: "Which Game Next?",
       url: "https://wgn-app.netlify.app/",
     },
     {
-      image: "/images/Parser Dashboard.png",
+      image: "./images/Parser Dashboard.png",
       description: "Parser Dashboard",
       url: "https://github.com/stevenks17/parser"
     },
     {
-      image: "/images/Bingeworthy-Books.png",
+      image: "./images/Bingeworthy-Books.png",
       description: "Bingeworthy-Books",
       url: "http://bingeworthy-books.herokuapp.com/"
     },
