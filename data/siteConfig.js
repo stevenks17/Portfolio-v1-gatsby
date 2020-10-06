@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Steven Kumarsingh',
   twitterUsername: 'Nevets172',
   githubUsername: 'stevenks17',
-  authorAvatar: '',
+  authorAvatar: '/images/Stevek.jpeg',
   authorDescription: `Full-Stack Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
      <br />
      As a Full-Stack developer I mainly work with <strong>React, PostgreSQL, Ruby on Rails.</strong>`,
@@ -71,17 +71,17 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "./images/WGN.png",
+      image: "/images/WGN.png",
       description: "Which Game Next?",
       url: "https://wgn-app.netlify.app/",
     },
     {
-      image: "./images/Parser Dashboard.png",
+      image: "/images/Parser Dashboard.png",
       description: "Parser Dashboard",
       url: "https://github.com/stevenks17/parser"
     },
     {
-      image: "./images/Bingeworthy-Books.png",
+      image: "/images/Bingeworthy-Books.png",
       description: "Bingeworthy-Books",
       url: "http://bingeworthy-books.herokuapp.com/"
     },
