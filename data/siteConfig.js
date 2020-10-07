@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Steven Kumarsingh',
   twitterUsername: 'Nevets172',
   githubUsername: 'stevenks17',
-  authorAvatar: 'public/images/Stevek.jpeg',
+  authorAvatar: '/images/Stevek.jpeg',
   authorDescription: `Full-Stack Developer, passionate about what I do. Always interested in how any application was made, I started to study programming as a hobby because I enjoyed modding games. I decided to take my hobby and passion and make it my career. <br />
      <br />
      As a Full-Stack developer I mainly work with <strong>React, PostgreSQL, Ruby on Rails.</strong>`,
