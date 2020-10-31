@@ -76,7 +76,7 @@ const Portifolio = ({ className, location }) => {
             ))}
           </Row>
         </Container>
-        <Repositories />
+        {siteConfig.githubUsername && <Repositories />}
       </Wrapper>
     </Layout>
   )
