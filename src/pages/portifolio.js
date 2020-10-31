@@ -7,6 +7,8 @@ import loadable from '@loadable/component'
 import Hero from '../components/hero'
 import SEO from '../components/SEO'
 import Wrapper from '../components/wrapper'
+import Repositories from '../components/repositories'
+
 
 const Layout = loadable(() => import('../components/layout'))
 
@@ -38,7 +40,7 @@ const JobCard = styled.a`
 `
 
 const Portifolio = ({ className, location }) => {
-  const title = "Portifolio"
+  const title = "Portfolio"
   const { keywords, portifolio } = siteConfig
   return (
     <Layout location={location}>
@@ -74,6 +76,7 @@ const Portifolio = ({ className, location }) => {
             ))}
           </Row>
         </Container>
+        <Repositories />
       </Wrapper>
     </Layout>
   )
